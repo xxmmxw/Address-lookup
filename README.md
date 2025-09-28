@@ -87,4 +87,3 @@ ClassNotFoundException: run sam build first; start with the built template.
 
 Cannot connect to the Docker daemon: start Docker Desktop and wait until it’s running.
 
-![Screenshot 2025-09-28 at 8.52.26 pm.png](../../../../../var/folders/04/_lv60bys3x50qr0330jrsw740000gn/T/TemporaryItems/NSIRD_screencaptureui_tqcLHx/Screenshot%202025-09-28%20at%208.52.26%E2%80%AFpm.png)
