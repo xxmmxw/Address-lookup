@@ -1,0 +1,19 @@
+# Build output
+target/
+*.class
+*.log
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+out/
+
+# macOS
+.DS_Store
+
+# Temp / local scripts
+trust.json
+.env
+
+# AWS creds (never commit; usually under ~/.aws, but just in case)
+.aws/

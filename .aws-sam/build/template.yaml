@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Address lookup Lambda (Java 17)
+Resources:
+  AddressLookupFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: java17
+      Handler: au.gov.nsw.dcs.AddressLookupHandler::handleRequest
+      CodeUri: AddressLookupFunction
+      MemorySize: 512
+      Timeout: 10
+      Events:
+        HttpApi:
+          Type: HttpApi
+          Properties:
+            Path: /address
+            Method: GET
+    Metadata:
+      SamResourceId: AddressLookupFunction
